@@ -1,16 +1,12 @@
-//
-//  main.m
-//  ObjectiveCRPS
-//
-//  Created by ㅣ on 3/18/24.
-//
+
 
 #import <Foundation/Foundation.h>
+#import "RPSGameViewModel.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        RPSGameViewModel *viewModel = [[RPSGameViewModel alloc] init];
+        [viewModel startGame];
     }
     return 0;
 }
